@@ -1,53 +1,7 @@
-export const exploreWorlds = [
-  {
-    id: 'world-1',
-    imgUrl: '/s1.png',
-    title: 'The Trend Rider',
-  },
-  {
-    id: 'world-2',
-    imgUrl: '/s2.png',
-    title: 'The Scalper',
-  },
-  {
-    id: 'world-3',
-    imgUrl: '/s3.png',
-    title: 'Simple and Safe',
-  },
-  {
-    id: 'world-4',
-    imgUrl: '/s4.png',
-    title: 'Al Driver',
-  },
 
-];
 
-export const startingFeatures = [
-  'Find a Strategy that suits you and you want to enter',
-  'Add the exchange you want to trade and the precaution to be safe',
-  'No need to FOMO, just stay on and see money grow',
-];
 
-export const newFeatures = [
-  {
-    imgUrl: '/vrpano.svg',
-    title: 'Deep studies Strategies',
-    subtitle:
-        'We have deep studies on the strategies that are suitable for you',
-  },
-  {
-    imgUrl: '/headset.svg',
-    title: 'BackTested Strategy',
-    subtitle:
-        'Tested and backtested strategies that are suitable for you',
-  },
-  {
-    imgUrl: '/headset.svg',
-    title: 'Paper Trading',
-    subtitle:
-        'Paper trading to get you started without any risk.',
-  },
-];
+
 
 export const insights = [
   {
@@ -74,16 +28,16 @@ export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
-    link: 'https://twitter.com/VigneshGupta9',
+    link: 'https://twitter.com/algobobot',
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
-    link: 'https://www.linkedin.com/in/vigneshgupta/',
+    link: 'https://www.linkedin.com/in/algobobot/',
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
-    link: 'https://www.instagram.com/_viggi.g_/',
+    link: 'https://www.instagram.com/algobobot/',
   },
 ];

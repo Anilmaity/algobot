@@ -5,7 +5,11 @@ import styles from '../../styles';
 import { staggerContainer, fadeIn, planetVariants } from '../../utils/motion';
 import { StartSteps, TitleText, TypingText } from '../components';
 
-import { startingFeatures } from '../../constants';
+export const startingFeatures = [
+    'Find a Strategy that suits you and you want to enter',
+    'Add the exchange you want to trade and the precaution to be safe',
+    'No need to FOMO, just stay on and see money grow',
+];
 
 const GetStarted = () => (
   <section className={`${styles.paddings} relative z-10`}>

@@ -3,9 +3,27 @@
 import { motion } from 'framer-motion';
 
 import styles from '../../styles';
-import { newFeatures } from '../../constants';
 import { NewFeatures, TitleText, TypingText } from '../components';
 import { planetVariants, staggerContainer, fadeIn } from '../../utils/motion';
+
+
+export const newFeatures = [
+  {
+    title: 'Deep studies Strategies',
+    subtitle:
+        'We have deep studies on the strategies that are suitable for you',
+  },
+  {
+    title: 'BackTested Strategy',
+    subtitle:
+        'Tested and backtested strategies that are suitable for you',
+  },
+  {
+    title: 'Paper Trading',
+    subtitle:
+        'Paper trading to get you started without any risk.',
+  },
+];
 
 const WhatsNew = () => (
   <section className={`${styles.paddings} relative z-10`}>

@@ -7,8 +7,29 @@ import styles from '../../styles';
 import { TypingText, ExploreCard, TitleText } from '../components';
 import { staggerContainer } from '../../utils/motion';
 
-import { exploreWorlds } from '../../constants';
+export const exploreWorlds = [
+    {
+        id: 'world-1',
+        imgUrl: '/s1.png',
+        title: 'The Trend Rider',
+    },
+    {
+        id: 'world-2',
+        imgUrl: '/s2.png',
+        title: 'The Scalper',
+    },
+    {
+        id: 'world-3',
+        imgUrl: '/s3.png',
+        title: 'Simple and Safe',
+    },
+    {
+        id: 'world-4',
+        imgUrl: '/s4.png',
+        title: 'Al Driver',
+    },
 
+];
 const Explore = () => {
   const [active, setActive] = useState('world-2');
 
