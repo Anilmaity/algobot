@@ -9,22 +9,24 @@ import { planetVariants, staggerContainer, fadeIn } from '../../utils/motion';
 
 export const newFeatures = [
   {
+    imgUrl: '/vrpano.svg',
     title: 'Deep studies Strategies',
     subtitle:
         'We have deep studies on the strategies that are suitable for you',
   },
   {
+    imgUrl: '/headset.svg',
     title: 'BackTested Strategy',
     subtitle:
         'Tested and backtested strategies that are suitable for you',
   },
   {
+    imgUrl: '/headset.svg',
     title: 'Paper Trading',
     subtitle:
         'Paper trading to get you started without any risk.',
   },
 ];
-
 const WhatsNew = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
